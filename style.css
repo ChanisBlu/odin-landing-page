@@ -168,3 +168,36 @@ body {
     color: #485563;
     text-align: center;
 }
+
+
+/* ============================= */
+/*        SECCIÓN DE CITA       */
+/* ============================= */
+
+
+quote-section {
+    background-color: #E5E7EB; /* fondo gris claro */
+    padding: 80px 20px;        /* espacio arriba y abajo */
+    /* Ojo: sin display:flex aquí, no lo necesitamos */
+}
+
+
+/* texto principal de la cita */
+.quote-text {
+    max-width: 800px;          /* ancho máximo de la caja de texto */
+    margin: 0 auto;            /* centra horizontalmente el bloque completo */
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+/* nombre del autor */
+.quote-author {
+    max-width: 800px;          /* mismo ancho que la cita */
+    margin: 20px auto 0;       /* debajo de la cita, bloque centrado */
+    text-align: right;         /* pero el texto dentro se va a la derecha */
+    font-weight: 700;
+    color: #1F2937;
+}

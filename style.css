@@ -256,3 +256,19 @@ quote-section {
     cursor: pointer;
 }
 
+/* ============================= */
+/*            FOOTER            */
+/* ============================= */
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 14px;
+}

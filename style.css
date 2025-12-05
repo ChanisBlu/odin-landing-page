@@ -175,8 +175,8 @@ body {
 /* ============================= */
 
 
-quote-section {
-    background-color: #E5E7EB; /* fondo gris claro */
+.quote-section {
+    background-color:#CBD5E1; /* fondo gris claro */
     padding: 80px 20px;        /* espacio arriba y abajo */
     /* Ojo: sin display:flex aquí, no lo necesitamos */
 }

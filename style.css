@@ -201,3 +201,58 @@ quote-section {
     font-weight: 700;
     color: #1F2937;
 }
+
+
+/* ============================= */
+/*      CALL TO ACTION (CTA)    */
+/* ============================= */
+
+
+.cta-section {
+    padding: 80px 20px; /* espacio arriba/abajo */
+    display: flex;
+    justify-content: center;   /* centra el contenido horizontalmente */
+}
+
+/*Contenedor azul*/
+
+.cta-container {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 40px 60px;
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*Dentro del contenedor*/
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+.cta-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-subtitle {
+    font-size: 16px;
+    color: #E5E7EB;
+}
+
+/*boton del cata*/
+
+.cta-button {
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
